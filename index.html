@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FinTrack Gizlilik Politikası</title>
+<style>
+  :root { color-scheme: light dark; --bg: #ffffff; --fg: #1e293b; --muted: #64748b; --line: #e2e8f0; --accent: #4f46e5; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --line: #334155; --accent: #a5b4fc; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 8px; }
+  p, li { margin: 6px 0; }
+  .muted { color: var(--muted); font-size: .9rem; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>FinTrack Gizlilik Politikası</h1>
+  <p class="muted">Yürürlük tarihi: 17 Ekim 2026</p>
+
+  <p>Bu politika, Hüseyin Berat Özen tarafından geliştirilen FinTrack Android uygulamasının verilerinizi nasıl işlediğini açıklar. Kısaca: <strong>FinTrack hiçbir kişisel veriyi toplamaz, sunucuya göndermez ve kimseyle paylaşmaz.</strong> Tüm verileriniz yalnızca kendi telefonunuzda, şifreli olarak saklanır.</p>
+
+  <h2>1. Uygulamanın işlediği veriler</h2>
+  <ul>
+    <li>Uygulamaya kendinizin girdiği kullanıcı adı, gelir/gider kayıtları, kategoriler ve hedefler.</li>
+    <li>Giriş PIN'iniz. PIN düz metin olarak saklanmaz; yalnızca tek yönlü şifrelenmiş özeti (hash) cihazınızın güvenli deposunda tutulur.</li>
+    <li>Parmak izi ile giriş, Android'in kendi biyometrik sistemi üzerinden yapılır. FinTrack parmak izi verinize hiçbir zaman erişmez; yalnızca doğrulamanın başarılı olup olmadığını öğrenir.</li>
+  </ul>
+
+  <h2>2. Verilerin saklanması</h2>
+  <ul>
+    <li>Veriler telefonunuzda, şifreli bir veritabanında (SQLCipher) saklanır. Şifreleme anahtarı Android'in güvenli anahtar deposunda tutulur.</li>
+    <li>FinTrack internet üzerinden hiçbir veri göndermez; sunucusu, hesap sistemi, reklamı, analiz veya hata raporlama aracı yoktur.</li>
+    <li>Uygulama verileri Android'in otomatik bulut yedeğine dahil edilmez.</li>
+  </ul>
+
+  <h2>3. Yedek dosyaları</h2>
+  <p>"Yedek Al" özelliği verilerinizi sizin belirlediğiniz bir parolayla şifreleyip, Android'in "Farklı kaydet" ekranında <strong>sizin seçtiğiniz yere</strong> (örneğin telefonunuz veya Google Drive hesabınız) kaydeder. FinTrack bu dosyayı hiçbir yere kendisi göndermez. Dosyayı bir bulut hizmetine kaydederseniz o hizmetin kendi gizlilik politikası geçerlidir. Parolanızı bilmeyen biri yedek dosyasının içeriğini okuyamaz.</p>
+
+  <h2>4. Paylaşım</h2>
+  <p>Verileriniz hiçbir üçüncü tarafla paylaşılmaz, satılmaz veya reklam amacıyla kullanılmaz.</p>
+
+  <h2>5. Saklama süresi ve silme</h2>
+  <ul>
+    <li>Verileriniz siz silene kadar yalnızca telefonunuzda kalır.</li>
+    <li>Ayarlar &gt; "Hesabı Sil" ile hesabınızı ve tüm verilerinizi kalıcı olarak silebilirsiniz.</li>
+    <li>Uygulamayı kaldırdığınızda da telefondaki tüm FinTrack verileri silinir. Daha önce kendi kaydettiğiniz yedek dosyaları sizin kontrolünüzdedir; onları kaydettiğiniz yerden silebilirsiniz.</li>
+  </ul>
+
+  <h2>6. Çocuklar</h2>
+  <p>FinTrack çocuklara yönelik değildir ve çocuklardan bilerek veri toplamaz (zaten hiçbir kullanıcıdan veri toplamaz).</p>
+
+  <h2>7. Değişiklikler</h2>
+  <p>Bu politika değişirse güncel hâli bu sayfada, yeni yürürlük tarihiyle yayınlanır.</p>
+
+  <h2>8. İletişim</h2>
+  <p>Sorularınız için: <a href="mailto:ohuseyinberat@gmail.com">ohuseyinberat@gmail.com</a></p>
+
+  <hr>
+
+  <h1>FinTrack Privacy Policy</h1>
+  <p class="muted">Effective date: October 17, 2026</p>
+
+  <p>This policy explains how the FinTrack Android app, developed by Hüseyin Berat Özen, handles your data. In short: <strong>FinTrack does not collect, transmit or share any personal data.</strong> All your data stays on your own phone, encrypted.</p>
+
+  <h2>1. Data the app processes</h2>
+  <ul>
+    <li>The username, income/expense records, categories and goals you enter yourself.</li>
+    <li>Your login PIN. It is never stored in plain text; only a one-way hash is kept in the device's secure storage.</li>
+    <li>Fingerprint login uses Android's own biometric system. FinTrack never accesses your fingerprint data; it only learns whether verification succeeded.</li>
+  </ul>
+
+  <h2>2. Storage</h2>
+  <ul>
+    <li>Data is stored on your phone in an encrypted database (SQLCipher). The encryption key is kept in Android's secure key store.</li>
+    <li>FinTrack sends no data over the internet. It has no server, no account system, no ads, no analytics and no crash reporting.</li>
+    <li>App data is excluded from Android's automatic cloud backup.</li>
+  </ul>
+
+  <h2>3. Backup files</h2>
+  <p>The "Backup" feature encrypts your data with a password you choose and saves it, through Android's "Save as" screen, <strong>wherever you choose</strong> (for example your phone or your Google Drive). FinTrack never sends this file anywhere by itself. If you save it to a cloud service, that service's privacy policy applies. Without your password, the backup cannot be read.</p>
+
+  <h2>4. Sharing</h2>
+  <p>Your data is never shared with third parties, sold, or used for advertising.</p>
+
+  <h2>5. Retention and deletion</h2>
+  <ul>
+    <li>Your data stays only on your phone until you delete it.</li>
+    <li>Settings &gt; "Hesabı Sil" (Delete account) permanently deletes your account and all your data.</li>
+    <li>Uninstalling the app also deletes all FinTrack data on the phone. Backup files you saved yourself remain under your control; you can delete them where you saved them.</li>
+  </ul>
+
+  <h2>6. Children</h2>
+  <p>FinTrack is not directed at children and does not knowingly collect data from children (it collects no data from anyone).</p>
+
+  <h2>7. Changes</h2>
+  <p>If this policy changes, the updated version will be published on this page with a new effective date.</p>
+
+  <h2>8. Contact</h2>
+  <p>Questions: <a href="mailto:ohuseyinberat@gmail.com">ohuseyinberat@gmail.com</a></p>
+</main>
+</body>
+</html>
